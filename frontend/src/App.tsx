@@ -25,6 +25,7 @@ class App extends Component {
                     <h1 className="App-title">{this.state.message}</h1>
                 </header>
                 <p className="App-intro">
+                typescript app!
                 </p>
             </div>
         );
