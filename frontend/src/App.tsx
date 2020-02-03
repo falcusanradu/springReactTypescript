@@ -3,7 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-   state = {};
+   state = {
+       message: null
+   };
 
     componentDidMount() {
         setInterval(this.hello, 250);
